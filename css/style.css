@@ -191,12 +191,21 @@ h1 {
   align-self: center;
 }
 
-
+.blog-section{
+  margin-top:15px;
+}
 #text{
+  margin-left:4px;
   justify-content: left;
-  width: 400px;
+  width: 500px;
   height: 200px;
-  
+  white-space: -moz-pre-wrap !important;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;
 }
 
 
