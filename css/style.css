@@ -237,6 +237,100 @@ h1 {
   border-radius: 8px;
   grid-column: 4;
 }
+#imageC1{
+  
+  background-image: url('..\\assets\\images\\sandro-schuh-6wVqCeK030Y-unsplash_canada2.jpg');
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  align-self: center;
+  border-radius: 8px;
+  grid-column: 2;
+  margin-left: -55px;
+  background-position: center;
+  
+}
+#imageC2{
+  
+  background-image: url('..\\assets\\images\\pranav-prashar-ubgiTsZvG-k-unsplash_canada3.jpg');
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  align-self: center;
+  border-radius: 8px;
+  grid-column: 4;
+  background-position: bottom;
+}
+#imageC3{
+  
+  background-image: url('..\\assets\\images\\matt-hanns-schroeter-7s65Un-AMP4-unsplash_canada4.jpg');
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  align-self: center;
+  border-radius: 8px;
+  grid-column: 2;
+  margin-left: -55px;
+  background-position: bottom;
+}
+#imageC4{
+  
+  background-image: url('..\\assets\\images\\sandro-schuh-6wVqCeK030Y-unsplash_canada2.jpg');
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  align-self: center;
+  border-radius: 8px;
+  grid-column: 4;
+  background-position: top;
+}
+#imageP1{
+  
+  background-image: url('..\\assets\\images\\eduardo-garcia-cRHwRTXodcw-unsplash_peru4.jpg');
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  align-self: center;
+  border-radius: 8px;
+  grid-column: 2;
+  margin-left: -55px;
+  background-position: center;
+  
+}
+#imageP2{
+  
+  background-image: url('..\\assets\\images\\junior-moran-zdk65luJOTI-unsplash_peru1.jpg');
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  align-self: center;
+  border-radius: 8px;
+  grid-column: 4;
+  background-position: bottom;
+}
+#imageP3{
+  
+  background-image: url('..\\assets\\images\\willian-justen-de-vasconcellos-kNbq1SHfLd8-unsplash_peru3.jpg');
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  align-self: center;
+  border-radius: 8px;
+  grid-column: 2;
+  margin-left: -55px;
+  background-position: bottom;
+}
+#imageP4{
+  
+  background-image: url('..\\assets\\images\\peter-livesey-WEME5LOrLpE-unsplash_peru2.jpg');
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  align-self: center;
+  border-radius: 8px;
+  grid-column: 4;
+  background-position: top;
+}
 
 .Pmid{
   
