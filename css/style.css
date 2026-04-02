@@ -231,24 +231,6 @@ select{
   padding-left: 10px;
   background-color: #ffffff;
 }
-input[type="radio"]{
- border: none;
- height: 20px;
- width: 20px;
- accent-color: #6C9A8B;
- 
-}
-input[type="radio"]{
-  color: #A1683A;
-}
-option:hover {
-  background-color: #EED2CC;
-}
-
-[required]:user-invalid{
-    border-color: #BB285C;
-}
-
 #reg{
  justify-self: center;
 }
