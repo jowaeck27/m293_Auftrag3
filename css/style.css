@@ -55,6 +55,20 @@
   align-self: center;
   
 }
+#logo2 a{
+  font-family: 'Aclonica';
+  width: 200px;
+  height: 40px;
+  align-self: center;
+  display: block;
+  font-size: 23px;
+  margin-left: 3px;
+  margin-top: 6px;
+  color:transparent;
+  letter-spacing: 1.9px;
+  
+}
+
 #logos{
     width: 100%;
     height:85px;
@@ -231,6 +245,24 @@ select{
   padding-left: 10px;
   background-color: #ffffff;
 }
+input[type="radio"]{
+ border: none;
+ height: 20px;
+ width: 20px;
+ accent-color: #6C9A8B;
+ 
+}
+input[type="radio"]{
+  color: #A1683A;
+}
+option:hover {
+  background-color: #EED2CC;
+}
+
+[required]:user-invalid{
+    border-color: #BB285C;
+}
+
 #reg{
  justify-self: center;
 }
@@ -405,7 +437,7 @@ h1 {
 }
 #imageC4{
   
-  background-image: url('..\\assets\\images\\sandro-schuh-6wVqCeK030Y-unsplash_canada2.jpg');
+  background-image: url('..\\assets\\images\\timothee-geenens-p5XgTYTFEaU-unsplash_canada1.jpg');
   background-size: cover;
   width: 400px;
   height: 200px;
@@ -543,6 +575,53 @@ h1 {
   display: inline-grid;
   position: relative;
 }
+#reset-message{
+  text-align: center;
+  align-content: center;
+  color:#A1683A;
+  font-family: 'Arial';
+  grid-row: 1;
+  font-size: 20px;
+  margin: 0%;
+  margin-left: 130px;
+  margin-top: 100px;
+}
+
+
+
+#m1 {
+  display: grid;
+  grid-template-columns: 91% 9%;
+  grid-template-rows: 20% auto auto;
+}
+
+
+#c5 {
+  grid-row: 3;
+  text-align: center;
+  
+}
+
+
+#mP1 {
+  text-align: center;
+  width: 600px;
+  justify-content: center;
+  justify-self: center;
+  grid-row: 2;
+  margin-left: 120px;
+  height: 150px;
+}
+
+
+#m1 > h2:nth-child(1) {
+  justify-content: center;
+  height: 100px;
+}
+
+
+
+
 
 /*
 #6C9A8B
