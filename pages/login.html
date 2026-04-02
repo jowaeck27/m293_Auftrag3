@@ -27,8 +27,25 @@
                 </div>
             
         </header>
-        <main id="m1">
-            
+        <main id="m3">
+            <section id="login-section">
+                <form id="login-form" onsubmit="return false">  
+                    <div class="label-input">
+                        <label for="username">Benutzername:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="label-input">
+                         <label for="password">Passwort:</label>
+                         <input type="password" id="password" name="password" required> 
+                    </div>
+                    <button id="signin" type="submit">Anmelden</button>
+                </form>
+                <button id="verg"><a href="..\pages\password-forgot.html">Passwort vergessen?</a></button> 
+            </section>
+            <section id="register-section">
+                <h3>Du hast noch keinen Account?</h3>
+                <button id="reg"><a href="..\pages\register.html">Registrieren</a></button>             
+            </section>
                 
                   
                 
