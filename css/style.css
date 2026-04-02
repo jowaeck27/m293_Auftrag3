@@ -97,6 +97,37 @@ aside{
   justify-self:  baseline;
   margin-top: 90px;
 }
+#blog1{
+  margin-bottom: 50px;
+}
+#blog2{
+  margin-bottom: 50px;
+}
+#blog3{
+  margin-bottom: 50px;
+}
+#blog1 h3 a:hover{
+  color:#6C9A8B;
+  cursor: pointer;
+}
+#blog2 h3 a:hover{
+  color:#6C9A8B;
+  cursor: pointer;
+}
+#blog3 h3 a:hover{
+  color:#6C9A8B;
+  cursor: pointer;
+}
+
+#blog1 #imageN1:hover{
+  background-image: url('..\\assets\\images\\thomas-lipke-oIuDXlOJSiE-unsplash_norway2.jpg');
+}
+#blog2 #imageC1:hover{
+  background-image: url('..\\assets\\images\\matt-hanns-schroeter-7s65Un-AMP4-unsplash_canada4.jpg');
+}
+#blog3 #imageP1:hover{
+  background-image: url('..\\assets\\images\\willian-justen-de-vasconcellos-kNbq1SHfLd8-unsplash_peru3.jpg');
+}
 #m1{
   display: grid;
   grid-template-columns: 91% 9%;
