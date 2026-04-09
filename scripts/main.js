@@ -1,0 +1,1 @@
+document.getElementsByTagName("body").style.scrollbarColor = "#E8998D #EED2CC"; 

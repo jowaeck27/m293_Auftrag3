@@ -32,15 +32,18 @@
                 <form id="login-form" onsubmit="return false">  
                     <div class="label-input">
                         <label for="username">Benutzername:</label>
-                        <input type="text" id="username" name="username" required>
+                        <input type="text" id="username" name="username" required placeholder="Benutzername">
                     </div>
                     <div class="label-input">
                          <label for="password">Passwort:</label>
-                         <input type="password" id="password" name="password" required> 
+                         <input type="password" id="password" name="password" required placeholder="Passwort"> 
                     </div>
                     <button id="signin" type="submit"><a href="..\pages\account.html">Anmelden</a></button>
                 </form>
-                <button id="verg"><a href="..\pages\password-forgot.html">Passwort vergessen?</a></button> 
+                <section id="reset-section">
+                    <h4>Passwort vergessen?</h4>
+                    <button id="verg"><a href="..\pages\password-forgot.html">Passwort zurücksetzen</a></button> 
+               </section>
             </section>
             <section id="register-section">
                 <h3>Du hast noch keinen Account?</h3>
@@ -51,11 +54,11 @@
                 
                     <aside>
                         <nav id="containernav">
-                            <a class="nav1" href="..\uebersicht.html">Blogs</a>
+                            <a class="nav1" href="..\pages\uebersicht.html">Blogs</a>
                             <a class="nav2" href="..\pages\norwegen.html">Norwegen</a>
                             <a class="nav2" href="..\pages\peru.html">Peru</a>
                             <a class="nav2" href="..\pages\canada.html">Kanada</a>
-                            <a class="nav4" href="#">Updates</a>
+                            <a class="nav4" href="..\pages\update.html">Updates</a>
                             <a class="nav3" href="..\pages\login.html">Login</a>
                             <a class="nav3" href="..\pages\info.html">Über Mich</a>
                             <a class="nav3" href="..\pages\kontakt.html">Kontakt</a>

@@ -30,37 +30,34 @@
         <main id="m1">
              <section id="login-section">
                 <form id="login-form" onsubmit="return false">  
+                    
                     <div class="label-input">
                         <label for="firstname">Vorname:</label>
-                        <input type="text" id="firstname" name="firstname" required>
-                    </div>
-                    <div class="label-input">
+                        <input type="text" id="firstname" name="firstname" required placeholder="Vorname">
+                    
                          <label for="Nachname">Nachname:</label>
-                         <input type="text" id="Nachname" name="Nachname" required> 
+                         <input type="text" id="Nachname" name="Nachname" required placeholder="Nachname"> 
                     </div>
                     <div class="label-input">
                          <label for="E-Mail">E-Mail:</label>
-                         <input type="email" id="E-Mail" name="E-Mail" required> 
-                    </div>
-                    <div class="label-input">
+                         <input type="email" id="E-Mail" name="E-Mail" required placeholder="E-mail Adresse"> 
+                   
                          <label for="password">Passwort:</label>
-                         <input type="password" id="password" name="password" required> 
+                         <input type="password" id="password" name="password" required placeholder="Passwort"> 
                     </div>
                     <div class="label-input">
                          <label for="Adresse">Adresse:</label>
-                         <input type="text" id="Adresse" name="Adresse" required> 
-                    </div>
-                    <div class="label-input">
+                         <input type="text" id="Adresse" name="Adresse" required placeholder="Straße und Hausnummer"> 
+                    
                          <label for="PLZ">PLZ:</label>
-                         <input type="text" id="PLZ" name="PLZ" required> 
+                         <input type="text" id="PLZ" name="PLZ" required placeholder="Postleitzahl"> 
                     </div>
                     <div class="label-input">
                          <label for="Ort">Ort:</label>
-                         <input type="text" id="Ort" name="Ort" required> 
-                    </div>
-                    <div class="label-input">
+                         <input type="text" id="Ort" name="Ort" required placeholder="Ort"> 
+                
                          <label for="Land">Land:</label>
-                         <select name="Land" id="Land" required>
+                         <select name="Land" id="Land" required >
                             <option>Land auswählen</option>
                             <option value="AF">Afghanistan</option>
                             <option value="AX">Åland Islands</option>
@@ -316,16 +313,7 @@
                             <option value="ZW">Zimbabwe</option>
                          </select>
                     </div>
-                    <div class="label-input">
-                         <label for="Geschlecht">Geschlecht:</label>
-                         <input type="radio" id="Geschlecht" name="Geschlecht" required value="Männlich">Männlich
-                         <input type="radio" id="Geschlecht" name="Geschlecht" required value="Weiblich">Weiblich
-                         <input type="radio" id="Geschlecht" name="Geschlecht" required value="Divers">Divers
-                          
-                    </div>
-
-
-                    <button id="signin" type="submit">Registrieren</button>
+                    <button id="signin" type="submit"><a href="..\pages\registerdone.html">Registrieren</a></button>
                 </form>
             </section>
                 
@@ -337,7 +325,7 @@
                             <a class="nav2" href="..\pages\norwegen.html">Norwegen</a>
                             <a class="nav2" href="..\pages\peru.html">Peru</a>
                             <a class="nav2" href="..\pages\canada.html">Kanada</a>
-                            <a class="nav4" href="#">Updates</a>
+                            <a class="nav4" href="..\pages\update.html">Updates</a>
                             <a class="nav3" href="..\pages\login.html">Login</a>
                             <a class="nav3" href="..\pages\info.html">Über Mich</a>
                             <a class="nav3" href="..\pages\kontakt.html">Kontakt</a>
