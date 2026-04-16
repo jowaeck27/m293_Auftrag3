@@ -18,10 +18,10 @@ if (!menue || !burger) {
     });
 }
 
-const contactbtn = document.getElementById('contactbtn');
-const loginbtn = document.getElementById('');
-const resetbtn = document.getElementById('');
-const registerbtn = document.getElementById('');
+const contactbtn = document.getElementById('contact-btn');
+const loginbtn = document.getElementById('signin');
+const resetbtn = document.getElementById('reset-btn');
+const registerbtn = document.getElementById('register-btn');
 
  resgisterbtn.addEventListener('click',()=>{
        window.open('registerdone.html','_self');
