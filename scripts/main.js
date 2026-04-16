@@ -18,4 +18,20 @@ if (!menue || !burger) {
     });
 }
 
+const contactbtn = document.getElementById('contact-btn');
+const loginbtn = document.getElementById('signin');
+const resetbtn = document.getElementById('reset-btn');
+const registerbtn = document.getElementById('register-btn');
 
+ resgisterbtn.addEventListener('click',()=>{
+       window.open('registerdone.html','_self');
+    });
+ loginbtn.addEventListener('click',()=>{
+       window.open('account.html','_self');
+    });
+ contactbtn.addEventListener('click',()=>{
+       window.open('contactconfirm.html','_self');
+    });
+ resetbtn.addEventListener('click',()=>{
+       window.open('reset.html','_self');
+    });
