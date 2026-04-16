@@ -1,5 +1,5 @@
 # m293_Auftrag3 Johanna Wäckerli
-
+ Link zur publizierten Website: https://jowaeck27.github.io/m293_Auftrag3/
 ## Beschreibung
  In diesem Auftrag für das Modul M293, habe ich eine Website für einen fiktiven Reise-Blog erstellt. Dieser besteht aus folgenden Pages: 
 
@@ -31,7 +31,8 @@
 
     update.html - Seite ist noch nicht erstellt, ist aber für die Zukunft geplant. 
 
-    account.html - Symbolische Seite zur veranschaulichung, dass das Login funktioniert (würde mit einem echten Backend dann ein Account interface haben)
+    account.html - Symbolische Seite zur veranschaulichung, dass das Login funktioniert 
+    (würde mit einem echten Backend dann ein Account interface haben)
     
 
 
@@ -39,7 +40,7 @@
     
 
 
-  Ich habe mich für ein simples und minimalistisches Design entschieden, um die Inhalte der Blogposts in den Vordergrund zu stellen.  Alle Bilder auf der Website stammen von Unsplash.com, und das Logo wurde mit https://freelogocreator.com/ erstellt.
+  Ich habe mich für ein simples und minimalistisches Design entschieden, um die Inhalte der Blogposts in den Vordergrund zu stellen.  Alle Bilder auf der Website stammen von Unsplash.com, das Logo wurde mit https://freelogocreator.com/ und die Farbpalette mit https://coolors.co/ erstellt.
 
   Ich habe zur Erstellung der Website HTML, CSS und auch etwas JavaScript verwendet. Das Design ist responsiv, damit die Website auf verschiedenen Geräten funktioniert und gut aussieht. Alle Inhalte sind fest im HTML-Code verankert und die Formulare sind funktional, jedoch ohne Backend-Verarbeitung. 
 
@@ -53,7 +54,7 @@
 - Font-Text: Arial
 - Farbschema
 ![colourpalette](assets/images/colourpallete.png)
-- Logo
+- Logo  
 ![logo](assets/images/logo.png)
 - Schriftzug-Logo
 ![schriftzug](assets/images/logo_name.png)
