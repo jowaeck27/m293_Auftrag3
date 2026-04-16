@@ -48,10 +48,24 @@
 
    
 
-
 ## Styleguide
-- Font-Titles: Aclonica
+- Font-Überschrift h1: Aclonica
+     - Size - Desktop = 50px
+     - Size - Mobile = 38px
+- Font-Buttons: Aclonica
+     - Size - Desktop = 15px
+     - Size - Mobile = 15px
 - Font-Text: Arial
+     - Size - Desktop:
+       - h2 = 20px 
+       - h3 = 18.72px
+       - h4 = 15px
+       - p = 16px
+     - Size - Mobile:
+       - h2 = 38px 
+       - h3 = 18.72px
+       - h4 = 15px
+       - p = 16px 
 - Farbschema
 ![colourpalette](assets/images/colourpallete.png)
 - Logo  
